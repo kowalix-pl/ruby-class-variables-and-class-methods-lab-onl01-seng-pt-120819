@@ -29,8 +29,8 @@ end
 def self.genre_count
     
     @@genres.each do |genre|
-   if @@genre_count[genre]
-        @@genre_count[genre] += 1
+   if @@genre_count[genre,count]
+        @@genre_count[genre,count] += 1
         
 end
 end
