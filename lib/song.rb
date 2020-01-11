@@ -27,10 +27,10 @@ end
 
 
 def self.genre_count
-    hash = 
-    @@genres.each do |genre|
-   if @@genre_count[genre]
-        @@genre_count[genre] += 1
+  @@genres = {genre, count}
+  @@genres.each do |genre|
+  if @@genre_count[genre]
+     @@genre_count[genre] += 1
         
 end
 end
